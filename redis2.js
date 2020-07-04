@@ -12,6 +12,7 @@ const redisClient = redis.createClient({
         redisClient.get("NAME" , (err , result) => { 
             console.log(result) 
         }); 
+    // 테스트     
     res.render('index', { 
         title: 'Express' 
     }); 
